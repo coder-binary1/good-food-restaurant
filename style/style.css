@@ -177,7 +177,7 @@
   flex-direction: column;
   align-items: center;
 }
-#about-us .info .title {
+.g-title {
   width: 805px;
   margin-bottom: 24px;
   color: rgb(16, 16, 16);
@@ -188,7 +188,7 @@
   letter-spacing: 0%;
   text-align: center;
 }
-#about-us .info .subtitle {
+.g-subtitle {
   margin-bottom: 48px;
   color: rgb(16, 16, 16);
   font-family: Work Sans;
@@ -199,7 +199,7 @@
   text-align: left;
   opacity: 0.6;
 }
-#about-us .info .follow-us {
+.g-follow-us {
   width: 99.9%;
   border-bottom: 2px solid rgba(16, 16, 16, 0.2);
   border-top: 2px solid rgba(16, 16, 16, 0.2);
@@ -213,12 +213,27 @@
   text-align: center;
   opacity: 0.7;
 }
-#about-us .info .social-icon {
+.g-social-icon {
   margin-top: 32px;
   width: 260px;
   display: flex;
   gap: 32px;
 }
-#about-us .info .social-icon img {
+.g-social-icon img {
   height: 40px;
+}
+
+footer {
+  padding: 137px 300px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.884) -19.5%,
+      rgba(145, 142, 142, 0.856) 100%
+    ),
+    url(../assets/social-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
